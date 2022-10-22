@@ -13,5 +13,14 @@ Hints:
 # Import whatever libraries/modules you need
 
 import numpy as np
+import os
+import torch
+import torchvision
+import tarfile
+from torchvision.datasets.utils import download_url
+from torch.utils.data import random_split
+import matplotlib
+import matplotlib.pyplot as plt
+%matplotlib inline
 
 # Your working code here
